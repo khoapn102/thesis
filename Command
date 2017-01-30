@@ -1,0 +1,3 @@
+sudo service odoo-server stop
+sudo su odoo
+./odoo.py -c /etc/odoo-server.conf --log-level=info
